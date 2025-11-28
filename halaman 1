@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flexible Learning UKSW</title>
+    <link rel="stylesheet" href="jjl.css">
+</head>
+<body>
+    
+
+    <!-- NAVBAR -->
+    <nav class="navbar">
+    <div class="nav-container">
+
+        <!-- Kiri -->
+        <div class="left-nav">
+            <a href="#" class="brand">
+                <img src="https://raw.githubusercontent.com/stawchew/apaya/refs/heads/main/UKSW.png" 
+                 alt="Logo" class="me-2" style="width:55px;">
+                <div class="brand-text">
+                    Flexible Learning<br>
+                    <span>Universitas Kristen Satya Wacana</span>
+                </div>
+            </a>
+
+            <ul class="nav-menu">
+                <li><a class="active">Beranda</a></li>
+                <li><a href="#">Courses</a></li>
+            </ul>
+        </div>
+
+        <!-- Kanan -->
+        <div class="nav-right">
+            <div class="language">
+    <button id="langBtn">🌐 Bahasa </button>
+    </div>
+
+    <ul>
+        <li><a href="login.html">Log.In</a></li> 
+    </ul>
+
+    </div>
+</nav>
+
+
+    <!-- HERO SECTION -->
+    <header class="hero">
+        <div class="hero-overlay"></div>
+        <div class="hero-text">
+            <h1>FLEXIBLE LEARNING UNIVERSITAS KRISTEN SATYA WACANA</h1>
+            <p>Media Pembelajaran dan Pengajaran Daring Universitas Kristen Satya Wacana</p>
+        </div>
+    </header>
+
+    <!-- MAIN CONTENT -->
+    <div class="container mt-5">
+    <h2 class="fw-bold"><br>Flexible Learning Universitas Kristen Satya Wacana<br></h2>
+
+
+    <h2><br>Kategori kursus<br></h2>
+
+    <ul class="list-unstyled mt-3">
+        <br>
+        <li> <a href="#" class="footer-link">• Fakultas Bahasa dan Seni</a></li>
+        <li> <a href="#" class="footer-link">• Fakultas Ekonomika dan Bisnis</a></li>
+        <li> <a href="#" class="footer-link">• Fakultas Hukum</a></li>
+        <li> <a href="#" class="footer-link">• Fakultas Ilmu Sosial dan Komunikasi</a></li>
+        <li> <a href="#" class="footer-link">• Fakultas Ilmu Kesehatan</a></li>
+        <li> <a href="#" class="footer-link">• Fakultas Interdisiplin</a></li>
+        <li> <a href="#" class="footer-link">• Fakultas Keguruan dan Ilmu Pendidikan</a></li>
+        <li> <a href="#" class="footer-link">• Fakultas Kedokteran</a></li>
+        <li> <a href="#" class="footer-link">• Fakultas Pertanian dan Bisnis</a></li>
+        <li> <a href="#" class="footer-link">• Fakultas Psikologi</a></li>
+        <li> <a href="#" class="footer-link">• Fakultas Sains dan Matematika</a></li>
+        <li> <a href="#" class="footer-link">• Fakultas Teknik Elektro dan Komputer</a></li>
+        <li> <a href="#" class="footer-link">• Fakultas Teknologi Informasi</a></li>
+        <li> <a href="#" class="footer-link">• Fakultas Teologi</a></li>
+        <br>
+    </ul>
+</div>
+
+<footer class="footer text-center">
+  ©️ 2025 Flearn UKSW Fostering Creative Minority
+</footer>
+
+</body>
+</html>
