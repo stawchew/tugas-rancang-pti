@@ -86,3 +86,225 @@
 
 </body>
 </html>
+
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Helvetica Neue", Arial, sans-serif;
+}
+
+/* NAVBAR */
+.navbar {
+    width: 100%;
+    background: rgb(251, 252, 250);
+    box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+}
+
+.nav-container {
+    max-width: 1300px;
+    margin: auto;
+    padding: 12px 25px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* Logo kiri */
+.nav-logo {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: #000;
+}
+
+.nav-logo img {
+    width: 55px;
+    margin-right: 10px;
+}
+
+.nav-title {
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 1.1;
+}
+
+.nav-title span {
+    font-weight: 400;
+    font-size: 12px;
+}
+
+/* Menu kiri */
+.left-nav {
+    display: flex;
+    align-items: center;
+}
+
+.nav-menu {
+    list-style: none;
+    display: flex;
+    margin-left: 25px;
+}
+
+.nav-menu li {
+    margin-right: 22px;
+}
+
+.nav-menu a {
+    text-decoration: none;
+    font-weight: 600;
+    color: #444;
+}
+
+
+
+/* Menu kanan */
+.nav-right {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.nav-right ul {
+    display: flex;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-righht li {
+    list-style: none;
+}
+
+.login-btn{
+            padding: 8px 15px;
+            background: #0066ff;
+            color: white;
+            border-radius: 6px;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        .login-btn:hover{
+            background: #0033aa;
+        }
+
+.right-menu {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.right.menu li{
+    list-style: none;
+}
+
+/* HERO */
+.hero {
+    height: 450px;
+    position: relative;
+    background-image: url("https://raw.githubusercontent.com/stawchew/apaya/refs/heads/main/WhatsApp%20Image%202025-11-24%20at%2018.04.53%202.jpeg");
+    background-size: cover;
+    background-position: center top;
+}
+
+.hero-overlay {
+    position: absolute;
+    inset: 0;
+    background: #ecf0ed20;
+}
+
+/* Hero text */
+.hero-text {
+    position: absolute;
+    bottom: 35px;
+    width: 100%;
+    text-align: center;
+    color: white;
+}
+
+.hero-text h1 {
+    font-size: 34px;
+    font-weight: 800;
+}
+
+.hero-text p {
+    font-size: 18px;
+    margin-top: 10px;
+    opacity: 0.9;
+}
+
+/* CONTENT */
+.main {
+    max-width: 1300px;
+    margin: auto;
+    padding: 45px 25px;
+}
+
+.subtitle {
+    font-size: 22px;
+    color: #555;
+    margin-bottom: 28px;
+}
+
+.title-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.title-row h3 {
+    font-size: 32px;
+}
+
+.expand {
+    color: #0b5cff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* CATEGORY BLOCK */
+.categories details {
+    margin-top: 15px;
+    padding: 12px 15px;
+    background: white;
+    border-left: 4px solid #e1e6f0;
+    border-radius: 3px;
+}
+
+details summary {
+    font-size: 17px;
+    font-weight: bold;
+    color: #010713;
+    list-style: none;
+    cursor: pointer;
+}
+
+details summary::-webkit-details-marker {
+    display: none;
+}
+
+.brand {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: #000;
+}
+
+.brand-text {
+    margin-left: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.login-btn{
+            padding: 8px 15px;
+            background: #0066ff;
+            color: white;
+            border-radius: 6px;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        .login-btn:hover{
+            background: #0033aa;
+        }
