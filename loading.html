@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  
+  <style>
+  
+    #loader {
+      position: fixed;
+      inset: 0;
+      background-color: #fff;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+      z-index: 9999;
+      transition: opacity 3.0s ease;
+    }
+
+    #loader.hidden {
+      opacity: 0;
+      pointer-events: none;
+    }
+
+    #loader img {
+      width: 120px;
+      height: auto;
+      margin-bottom: 12px;
+    }
+
+    #loader .text {
+      font-family: sans-serif;
+      font-size: 16px;
+      color: #333;
+    }
+  </style>
+    
+  
+</head>
+<body>
+  <!-- Layar loading -->
+  <div id="loader">
+    <!-- Ganti src dengan gambar logo atau animasi loading -->
+    <img src="https://raw.githubusercontent.com/stawchew/apaya/refs/heads/main/UKSW.png" alt="Loading..." />
+    
+
+  
+
+  <!-- Script untuk menyembunyikan loader -->
+  <script>
+    window.addEventListener('load', function () {
+      document.getElementById('loader').classList.add('hidden');
+    });
+  </script>
+</body>
+</html>
+
+
