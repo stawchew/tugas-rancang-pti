@@ -192,9 +192,9 @@
 
 /* HERO */
 .hero {
-    height: 450px;
+    height: 500px;
     position: relative;
-    background-image: url("https://raw.githubusercontent.com/stawchew/apaya/refs/heads/main/WhatsApp%20Image%202025-11-24%20at%2018.04.53%202.jpeg");
+    background-image: url("https://raw.githubusercontent.com/stawchew/apaya/refs/heads/main/WhatsApp%20Image%202025-11-28%20at%2018.43.28.jpeg");
     background-size: cover;
     background-position: center top;
 }
@@ -290,7 +290,7 @@ details summary::-webkit-details-marker {
 
 .login-btn{
             padding: 8px 15px;
-            background: #0066ff;
+            background: #2a6ff0;
             color: white;
             border-radius: 6px;
             text-decoration: none;
@@ -365,3 +365,32 @@ body {
     padding: 25px 0;
     font-size: 14px;
 }
+
+#loader {
+      position: fixed;
+      inset: 0;
+      background-color: #fff;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+      z-index: 9999;
+      transition: opacity 6.0s ease;
+    }
+
+    #loader.hidden {
+      opacity: 0;
+      pointer-events: none;
+    }
+
+    #loader img {
+      width: 120px;
+      height: auto;
+      margin-bottom: 12px;
+    }
+
+    #loader .text {
+      font-family: sans-serif;
+      font-size: 16px;
+      color: #333;
+    }
