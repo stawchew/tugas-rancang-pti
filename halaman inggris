@@ -37,8 +37,8 @@
     <summary class="lang-btn">English </summary>
 
     <div class="lang-menu">
-        <a href="index-id.html" class="lang-option">Bahasa Indonesia</a>
-        <a href="index-id.html" class="lang-option">English</a>
+        <a href="indo.html" class="lang-option">Bahasa Indonesia</a>
+        <a href="english.html" class="lang-option">English</a>
     </div>
 </details>
 
@@ -53,7 +53,7 @@
     <div class="modal-box">
 
         <label for="toggleLogin" class="close">&times;</label>
-
+        <form action="(namafile).html" method="GET">
         <h3 class="title"> Username </h3>
         <input type="text" placeholder="Username">
 
@@ -64,9 +64,7 @@
         </div>
 
         <a href="#" class="forgot">Forgot your password?</a>
-
-        <button class="btn-submit">Log In </button>
-
+        <button type="submit" class="btn-submit">Log In</button>
         <p class="or-text">Or login using your account</p>
 
         <div class="google-login">
@@ -97,20 +95,21 @@
 
     <ul class="list-unstyled mt-3">
         <br>
-        <li> <a href="#" class="footer-link">• Fakultas Bahasa dan Seni</a></li>
-        <li> <a href="#" class="footer-link">• Fakultas Ekonomika dan Bisnis</a></li>
-        <li> <a href="#" class="footer-link">• Fakultas Hukum</a></li>
-        <li> <a href="#" class="footer-link">• Fakultas Ilmu Sosial dan Komunikasi</a></li>
-        <li> <a href="#" class="footer-link">• Fakultas Ilmu Kesehatan</a></li>
-        <li> <a href="#" class="footer-link">• Fakultas Interdisiplin</a></li>
-        <li> <a href="#" class="footer-link">• Fakultas Keguruan dan Ilmu Pendidikan</a></li>
-        <li> <a href="#" class="footer-link">• Fakultas Kedokteran</a></li>
-        <li> <a href="#" class="footer-link">• Fakultas Pertanian dan Bisnis</a></li>
-        <li> <a href="#" class="footer-link">• Fakultas Psikologi</a></li>
-        <li> <a href="#" class="footer-link">• Fakultas Sains dan Matematika</a></li>
-        <li> <a href="#" class="footer-link">• Fakultas Teknik Elektro dan Komputer</a></li>
-        <li> <a href="#" class="footer-link">• Fakultas Teknologi Informasi</a></li>
-        <li> <a href="#" class="footer-link">• Fakultas Teologi</a></li>
+        <li> <a href="https://fbs.uksw.edu/">• Fakultas Bahasa dan Seni</a></li>
+        <li> <a href="https://feb.uksw.edu/">• Fakultas Ekonomika dan Bisnis</a></li>
+        <li> <a href="https://hukum.uksw.edu/">• Fakultas Hukum</a></li>
+        <li> <a href="https://fiskom.uksw.edu/">• Fakultas Ilmu Sosial dan Komunikasi</a></li>
+        <li> <a href="https://fik.uksw.edu/">• Fakultas Ilmu Kesehatan</a></li>
+        <li> <a href="https://fid.uksw.edu">• Fakultas Interdisiplin</a></li>
+        <li> <a href="https://fkip.uksw.edu/">• Fakultas Keguruan dan Ilmu Pendidikan</a></li>
+        <li> <a href="https://fk.uksw.edu/">• Fakultas Kedokteran</a></li>
+        <li> <a href="https://fpb.uksw.edu/">• Fakultas Pertanian dan Bisnis</a></li>
+        <li> <a href="https://psikologi.uksw.edu/">• Fakultas Psikologi</a></li>
+        <li> <a href="https://fsm.uksw.edu/">• Fakultas Sains dan Matematika</a></li>
+        <li> <a href="https://ece.uksw.edu/">• Fakultas Teknik Elektro dan Komputer</a></li>
+        <li> <a href="https://fti.uksw.edu/">• Fakultas Teknologi Informasi</a></li>
+        <li> <a href="https://fteologi.uksw.edu/">• Fakultas Teologi</a></li>
+        <li> <a href="https://biologi.uksw.edu/">• Fakultas Biologi</a></li>
         <br>
     </ul>
 </div>
@@ -118,6 +117,10 @@
 <footer class="footer-bar">
   ©️ 2025 Flearn UKSW Fostering Creative Minority
 </footer>
-
+<script>
+    window.addEventListener('load', function () {
+      document.getElementById('loader').classList.add('hidden');
+    });
+  </script>
 </body>
 </html>
