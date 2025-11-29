@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Flexible Learning UKSW</title>
+
+    <!-- Memanggil file CSS -->
+    <link rel="stylesheet" href="oke.css">
+</head>
+<body>
+
+    <!-- NAVBAR -->
+    <div class="navbar">
+        <img src="https://i.ibb.co/8gRZK9Q/logo.png" alt="UKSW Logo" />
+        <div class="nav-links">
+            <a href="#">Home</a>
+            <a href="#">Dashboard</a>
+            <a href="#">My courses</a>
+            <a href="#">Reports & Analytics</a>
+            <a href="#">Courses</a>
+        </div>
+    </div>
+
+    <!-- HERO SECTION -->
+    <div class="hero">
+        <h1>FLEXIBLE LEARNING UNIVERSITAS KRISTEN SATYA WACANA</h1>
+        <p>Media Pembelajaran dan Pengajaran Daring Universitas Kristen Satya Wacana</p>
+    </div>
+
+    <!-- MAIN CONTENT -->
+    <div class="content">
+        <h3>Flexible Learning Universitas Kristen Satya Wacana</h3>
+        <h2>My courses</h2>
+
+        <div class="course-box">
+            <a href="https://id.wikipedia.org/wiki/Matematika_diskrit">TC511 - MATEMATIKA DISKRIT F</a>
+            <p>Teacher: Willson Mangoki</p>
+        </div>
+
+        <div class="course-box">
+            <a href="https://id.wikipedia.org/wiki/Teknologi_informasi">TC512 - PENGANTAR TEKNOLOGI INFORMASI E</a>
+            <p>Teacher: Willson Mangoki</p>
+        </div>
+
+        <div class="course-box">
+            <a href="https://id.wikipedia.org/wiki/Pemrograman">TC513 - DASAR-DASAR PEMROGRAMAN G</a>
+            <p>Teacher: Suharyadi Har</p>
+        </div>
+    </div>
+
+</body>
+</html>
