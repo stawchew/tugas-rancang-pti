@@ -8,6 +8,9 @@
 </head>
 <body>
     
+        <div id="loader">
+    <img src="https://raw.githubusercontent.com/stawchew/apaya/refs/heads/main/UKSW.png" alt="Loading..." />
+</div>
 
     <!-- NAVBAR -->
     <nav class="navbar">
@@ -53,7 +56,7 @@
     <div class="modal-box">
 
         <label for="toggleLogin" class="close">&times;</label>
-
+        <form action="menuutama.html" method="GET">
         <h3 class="title">Nama pengguna</h3>
         <input type="text" placeholder="Nama pengguna">
 
@@ -65,7 +68,7 @@
 
         <a href="#" class="forgot">Forgot your password?</a>
 
-        <button class="btn-submit">Masuk</button>
+        <button type="submit" class="btn-submit">Masuk</button>
 
         <p class="or-text">Or login using your account</p>
 
@@ -97,21 +100,21 @@
 
     <ul class="list-unstyled mt-3">
         <br>
-        <li> <a href="https://fbs.uksw.edu/" class="footer-link" target="_blank">• Fakultas Bahasa dan Seni</a></li>
-        <li> <a href="https://feb.uksw.edu/" class="footer-link" target="-blank">• Fakultas Ekonomika dan Bisnis</a></li>
-        <li> <a href="https://hukum.uksw.edu/" class="footer-link" target="_blank">• Fakultas Hukum</a></li>
-        <li> <a href="https://fiskom.uksw.edu/" class="footer-link" target="_blank">• Fakultas Ilmu Sosial dan Komunikasi</a></li>
-        <li> <a href="https://fik.uksw.edu/" class="footer-link" target="_blank">• Fakultas Ilmu Kesehatan</a></li>
-        <li> <a href="https://fid.uksw.edu" class="footer-link" target="_blank">• Fakultas Interdisiplin</a></li>
-        <li> <a href="https://fkip.uksw.edu/" class="footer-link" target="_blank">• Fakultas Keguruan dan Ilmu Pendidikan</a></li>
-        <li> <a href="https://fk.uksw.edu/" class="footer-link" target="_blank">• Fakultas Kedokteran</a></li>
-        <li> <a href="https://fpb.uksw.edu/" class="footer-link" target="_blank">• Fakultas Pertanian dan Bisnis</a></li>
-        <li> <a href="https://psikologi.uksw.edu/" class="footer-link" target="_blank">• Fakultas Psikologi</a></li>
-        <li> <a href="https://fsm.uksw.edu/" class="footer-link" target="_blank">• Fakultas Sains dan Matematika</a></li>
-        <li> <a href="https://ece.uksw.edu/" class="footer-link" target="_blank">• Fakultas Teknik Elektro dan Komputer</a></li>
-        <li> <a href="https://fti.uksw.edu/" class="footer-link" target="_blank">• Fakultas Teknologi Informasi</a></li>
-        <li> <a href="https://fteologi.uksw.edu/" class="footer-link" target="_blank">• Fakultas Teologi</a></li>
-        <li> <a href="https://biologi.uksw.edu/" class="footer-link" target="_blank">• Fakultas Biologi</a></li>
+        <li> <a href="https://fbs.uksw.edu/">• Fakultas Bahasa dan Seni</a></li>
+        <li> <a href="https://feb.uksw.edu/">• Fakultas Ekonomika dan Bisnis</a></li>
+        <li> <a href="https://hukum.uksw.edu/">• Fakultas Hukum</a></li>
+        <li> <a href="https://fiskom.uksw.edu/">• Fakultas Ilmu Sosial dan Komunikasi</a></li>
+        <li> <a href="https://fik.uksw.edu/">• Fakultas Ilmu Kesehatan</a></li>
+        <li> <a href="https://fid.uksw.edu">• Fakultas Interdisiplin</a></li>
+        <li> <a href="https://fkip.uksw.edu/">• Fakultas Keguruan dan Ilmu Pendidikan</a></li>
+        <li> <a href="https://fk.uksw.edu/">• Fakultas Kedokteran</a></li>
+        <li> <a href="https://fpb.uksw.edu/">• Fakultas Pertanian dan Bisnis</a></li>
+        <li> <a href="https://psikologi.uksw.edu/">• Fakultas Psikologi</a></li>
+        <li> <a href="https://fsm.uksw.edu/">• Fakultas Sains dan Matematika</a></li>
+        <li> <a href="https://ece.uksw.edu/">• Fakultas Teknik Elektro dan Komputer</a></li>
+        <li> <a href="https://fti.uksw.edu/">• Fakultas Teknologi Informasi</a></li>
+        <li> <a href="https://fteologi.uksw.edu/">• Fakultas Teologi</a></li>
+        <li> <a href="https://biologi.uksw.edu/">• Fakultas Biologi</a></li>
         
         <br>
     </ul>
@@ -120,6 +123,10 @@
 <footer class="footer-bar">
   © 2025 Flearn UKSW Fostering Creative Minority
 </footer>
+  <script>
+    window.addEventListener('load', function () {
+      document.getElementById('loader').classList.add('hidden');
+    });
+  </script>
 </body>
 </html>
-
