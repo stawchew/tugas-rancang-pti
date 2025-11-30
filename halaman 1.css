@@ -394,3 +394,144 @@ body {
       font-size: 16px;
       color: #333;
     }
+
+html {
+     scroll-behavior: smooth;
+}
+
+#loader {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    background: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 9999;
+    animation: hideLoader 0.8s ease 1.2s forwards;
+    /* 1.2s nunggu, 0.8s fade */
+}
+
+#loader.hidden {
+    display: none;
+}
+
+@keyframes hideLoader {
+    to {
+        opacity: 0;
+        visibility: hidden;
+    }
+}
+
+.modal-bg {
+    position: fixed;
+    inset: 0;
+    background: rgba(0,0,0,0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
+    pointer-events: none;
+    transition: 0.3s;
+}
+
+#toggleLogin:checked ~ .modal-bg {
+    opacity: 1;
+    pointer-events: all;
+}
+
+.modal-box {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+
+/* Geser seluruh konten judul & daftar fakultas */
+.main-content {
+    margin-left: 40px;   /* geser ke kanan */
+}
+
+/* Bullet list normal & rapi */
+.list-unstyled {
+    list-style-type: disc; /* titik hitam biasa */
+    margin-left: 20px;
+}
+
+/* Style link fakultas */
+.list-unstyled li a {
+    text-decoration: none;
+    color: #0056d2;
+    font-size: 17px;
+}
+
+.list-unstyled li a:hover {
+    text-decoration: underline;
+    color: #003a9c;
+}
+
+
+
+/* POPUP PILIH AKUN – STYLE BARU MIRIP LOGIN */
+.popup {
+    display: none;
+    position: fixed;
+    inset: 0;
+    background: rgba(0,0,0,0.55);
+    justify-content: center;
+    align-items: center;
+    z-index: 999999;
+}
+
+#pilih-akun:target {
+    display: flex;
+}
+
+/* Kotak popup mirip modal login */
+.popup-box {
+    width: 350px;
+    background: white;
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: 0 4px 25px rgba(0,0,0,0.25);
+    position: relative;
+}
+
+/* Tombol X */
+.popup-close {
+    position: absolute;
+    top: 10px;
+    right: 15px;
+    font-size: 22px;
+    text-decoration: none;
+    color: #444;
+}
+
+/* Judul */
+.popup-box h3 {
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+/* Kotak pilihan akun */
+.pilihan {
+    padding: 12px 14px;
+    background: #f5f5f5;
+    border-radius: 8px;
+    margin-bottom: 12px;
+    font-size: 15px;
+    cursor: pointer;
+    border: 1px solid #ddd;
+}
+
+.pilihan:hover {
+    background: #eaeaea;
+}
+
+/* Link hilangkan underline */
+.popup a {
+    text-decoration: none;
+    color: black;
+    display: block;
+}
+
