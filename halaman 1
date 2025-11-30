@@ -28,8 +28,8 @@
             </a>
 
             <ul class="nav-menu">
-                <li><a class="active">Beranda</a></li>
-                <li><a href="#">Courses</a></li>
+                <li><a href="pti.html">Beranda</a></li>
+                <li><a href="#kategori">Courses</a></li>
             </ul>
         </div>
 
@@ -40,8 +40,8 @@
     <summary class="lang-btn">Bahasa Indonesia </summary>
 
    <div class="lang-menu">
-        <li><a href="indo.html" class="lang-option">Bahasa Indonesia</a>
-        <li><a href="english.html" class="lang-option">English</a>
+        <a href="indo.html" class="lang-option">Bahasa Indonesia</a>
+        <a href="english.html" class="lang-option">English</a>
     </div>
 </details>
 
@@ -66,22 +66,41 @@
             <span class="eye">👁️</span>
         </div>
 
-        <a href="#" class="forgot">Forgot your password?</a>
-
+        <a href="#" class="forgot">Lupa password?</a>
         <button type="submit" class="btn-submit">Masuk</button>
-
         <p class="or-text">Or login using your account</p>
 
-        <div class="google-login">
+        <a href="#pilih-akun" class="google-login">
             <img src="https://www.svgrepo.com/show/355037/google.svg" width="32">
-        </div>
+        </a>
+    </div>
+    </div>
+</nav>
+    <div id="pilih-akun" class="popup">
+    <div class="popup-box">
+        
+        <a href="#" class="popup-close">&times;</a>
+
+        <h3>Pilih Akun Gmail</h3>
+
+        <a href="menuutama.html">
+            <div class="pilihan">aaa@gmail.com</div>
+        </a>
+
+        <a href="menuutama.html">
+            <div class="pilihan">bbb@gmail.com</div>
+        </a>
+
+        <a href="menuutama.html">
+            <div class="pilihan">ccc@gmail.com</div>
+        </a>
 
     </div>
 </div>
+</div>
+</div>
 </nav>
     
-
-
     <!-- HERO SECTION -->
     <header class="hero">
         <div class="hero-overlay"></div>
@@ -92,29 +111,27 @@
     </header>
 
     <!-- MAIN CONTENT -->
-    <div class="container mt-5">
-    <h2 class="fw-bold"><br>Flexible Learning Universitas Kristen Satya Wacana<br></h2>
+    <div class="main-content">
+    <h1 class="fw-bold"><br>Flexible Learning Universitas Kristen Satya Wacana<br></h1>
+    <h2 id="kategori"><br>Kategori kursus<br></h2>
 
-
-    <h2><br>Kategori kursus<br></h2>
-
-    <ul class="list-unstyled mt-3">
+    <ul class="list-unstyled">
         <br>
-        <li> <a href="https://fbs.uksw.edu/">• Fakultas Bahasa dan Seni</a></li>
-        <li> <a href="https://feb.uksw.edu/">• Fakultas Ekonomika dan Bisnis</a></li>
-        <li> <a href="https://hukum.uksw.edu/">• Fakultas Hukum</a></li>
-        <li> <a href="https://fiskom.uksw.edu/">• Fakultas Ilmu Sosial dan Komunikasi</a></li>
-        <li> <a href="https://fik.uksw.edu/">• Fakultas Ilmu Kesehatan</a></li>
-        <li> <a href="https://fid.uksw.edu">• Fakultas Interdisiplin</a></li>
-        <li> <a href="https://fkip.uksw.edu/">• Fakultas Keguruan dan Ilmu Pendidikan</a></li>
-        <li> <a href="https://fk.uksw.edu/">• Fakultas Kedokteran</a></li>
-        <li> <a href="https://fpb.uksw.edu/">• Fakultas Pertanian dan Bisnis</a></li>
-        <li> <a href="https://psikologi.uksw.edu/">• Fakultas Psikologi</a></li>
-        <li> <a href="https://fsm.uksw.edu/">• Fakultas Sains dan Matematika</a></li>
-        <li> <a href="https://ece.uksw.edu/">• Fakultas Teknik Elektro dan Komputer</a></li>
-        <li> <a href="https://fti.uksw.edu/">• Fakultas Teknologi Informasi</a></li>
-        <li> <a href="https://fteologi.uksw.edu/">• Fakultas Teologi</a></li>
-        <li> <a href="https://biologi.uksw.edu/">• Fakultas Biologi</a></li>
+        <li> <a href="https://fbs.uksw.edu/"> Fakultas Bahasa dan Seni</a></li>
+        <li> <a href="https://feb.uksw.edu/"> Fakultas Ekonomika dan Bisnis</a></li>
+        <li> <a href="https://hukum.uksw.edu/"> Fakultas Hukum</a></li>
+        <li> <a href="https://fiskom.uksw.edu/"> Fakultas Ilmu Sosial dan Komunikasi</a></li>
+        <li> <a href="https://fik.uksw.edu/"> Fakultas Ilmu Kesehatan</a></li>
+        <li> <a href="https://fid.uksw.edu"> Fakultas Interdisiplin</a></li>
+        <li> <a href="https://fkip.uksw.edu/"> Fakultas Keguruan dan Ilmu Pendidikan</a></li>
+        <li> <a href="https://fk.uksw.edu/"> Fakultas Kedokteran</a></li>
+        <li> <a href="https://fpb.uksw.edu/"> Fakultas Pertanian dan Bisnis</a></li>
+        <li> <a href="https://psikologi.uksw.edu/"> Fakultas Psikologi</a></li>
+        <li> <a href="https://fsm.uksw.edu/"> Fakultas Sains dan Matematika</a></li>
+        <li> <a href="https://ece.uksw.edu/"> Fakultas Teknik Elektro dan Komputer</a></li>
+        <li> <a href="https://fti.uksw.edu/"> Fakultas Teknologi Informasi</a></li>
+        <li> <a href="https://fteologi.uksw.edu/"> Fakultas Teologi</a></li>
+        <li> <a href="https://biologi.uksw.edu/"> Fakultas Biologi</a></li>
         
         <br>
     </ul>
@@ -123,10 +140,5 @@
 <footer class="footer-bar">
   © 2025 Flearn UKSW Fostering Creative Minority
 </footer>
-  <script>
-    window.addEventListener('load', function () {
-      document.getElementById('loader').classList.add('hidden');
-    });
-  </script>
 </body>
 </html>
