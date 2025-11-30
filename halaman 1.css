@@ -194,7 +194,7 @@
 .hero {
     height: 500px;
     position: relative;
-    background-image: url("https://raw.githubusercontent.com/stawchew/apaya/refs/heads/main/WhatsApp%20Image%202025-11-28%20at%2018.43.28.jpeg");
+    background-image: url("https://github.com/stawchew/apaya/blob/main/WhatsApp%20Image%202025-11-30%20at%2020.58.54.jpeg?raw=true");
     background-size: cover;
     background-position: center top;
 }
@@ -211,7 +211,7 @@
     bottom: 35px;
     width: 100%;
     text-align: center;
-    color: white;
+    color: rgb(10, 10, 10);
 }
 
 .hero-text h1 {
