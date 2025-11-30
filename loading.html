@@ -3,24 +3,28 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  
+
   <style>
-  
+    /* Loader full screen */
     #loader {
       position: fixed;
       inset: 0;
-      background-color: #fff;
+      background: #fff;
       display: flex;
       align-items: center;
       justify-content: center;
       flex-direction: column;
       z-index: 9999;
-      transition: opacity 3.0s ease;
+
+      /* Durasi loader + animasi hilang */
+      animation: fadeOut 2.5s forwards;
     }
 
-    #loader.hidden {
-      opacity: 0;
-      pointer-events: none;
+    /* Animasi hilang */
+    @keyframes fadeOut {
+      0% { opacity: 1; visibility: visible; }
+      70% { opacity: 1; }
+      100% { opacity: 0; visibility: hidden; }
     }
 
     #loader img {
@@ -28,29 +32,14 @@
       height: auto;
       margin-bottom: 12px;
     }
-
-    #loader .text {
-      font-family: sans-serif;
-      font-size: 16px;
-      color: #333;
-    }
   </style>
-    
-  
 </head>
+
 <body>
-  <!-- Layar loading -->
+  <!-- Loader -->
   <div id="loader">
-    <img src="https://raw.githubusercontent.com/stawchew/apaya/refs/heads/main/UKSW.png" alt="Loading..." />
-    
+    <img src="https://raw.githubusercontent.com/stawchew/apaya/refs/heads/main/UKSW.png" />
+  </div>
 
-  
-
-  <!-- Script untuk menyembunyikan loader -->
-  <script>
-    window.addEventListener('load', function () {
-      document.getElementById('loader').classList.add('hidden');
-    });
-  </script>
 </body>
 </html>
